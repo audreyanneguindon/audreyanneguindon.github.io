@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cutive Mono', monospace;
+  background: whitesmoke;
+}
+
+#header {
+  background: whitesmoke;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cutive Mono', monospace;
+  color: black;
+  max-width: 500px;
+  text-align: left;
+}
+
+.title {
+  font-size: 15px;
+  letter-spacing: .1rem;
+  color: darkslategray;
+}
+
+/* for a subtitle in the future? */
+.subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  letter-spacing: .2rem;
+}
+
+.contact-links li {
+  font-size: 25px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 15px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.contact-links a:hover {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 30px;
+  font-size: 15px;
+}
+
+.content-container {
+  margin: auto;
+  text-align: left;
+  max-width: 500px;
+}
+
+.experience-list ul {
+  list-style: none;
+  text-align: center;
+}
+
+.experience-list li {
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* role title  */
+.experience-list h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  letter-spacing: .1rem;
+}
+
+/* date and company */
+.experience-list h5 {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: grey;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #3D5D69;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3D5D69;
+}
+
+/* Mobile */
+@media screen and (max-width: 530px) {
+  body {
+    padding: 0 30px;
+  }
+}
